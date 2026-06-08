@@ -1,1 +1,65 @@
+<main>
+    <section id="sobre">
+        <h2>O Hexa Chegou!</h2>
+        <p>A espera acabou! O Brasil conquistou o mundo novamente em 2026. Com um placar de 3 a 1 na final, a seleção mostrou que o futebol arte ainda vive e o Hexa é nosso!</p>
+    </section>
 
+    <section id="recursos">
+        <h2>Últimas Notícias</h2>
+        <ul>
+            <li>Exclusivo: Cientistas descobrem que a bola de 2026 foi feita com tecnologia alienígena para garantir o gol do Brasil.</li>
+            <li>A comemoração na Avenida Paulista durou 72 horas ininterruptas.</li>
+            <li>Técnico promete tatuar o nome de cada torcedor brasileiro no braço.</li>
+        </ul>
+    </section>
+</main>
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #27ae60;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
